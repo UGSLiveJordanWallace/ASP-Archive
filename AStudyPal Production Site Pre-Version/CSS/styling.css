@@ -1,0 +1,187 @@
+/* <!-- Project Edwiz Started on December 11 2020 --> */
+
+/* This is for the JetBrains Mono Bold 700 font-family  */
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+
+/* This is for the JetBrains Mono Extra-light 200 font-family */
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-About {
+  width: 35vw;
+}
+
+body {
+  background-color: grey
+}
+
+header {
+  color: white;
+  background: #24272E;
+  padding: 5px;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  margin: auto;
+}
+
+#welcome {
+  font-size: 18vw;
+  letter-spacing: 1vw;
+}
+
+.warning-title {
+  font-size: 6vw;
+}
+
+#warn-message {
+  font-size: 3.5vw;
+}
+
+#info-p {
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 65px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+main {
+  margin-top: 30px;
+  color: white;
+  background: red;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.about-us {
+  background: white;
+  margin-left: 26vw;
+  margin-right: 26vw;
+  color: black;
+  text-align: center;
+  left: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.info-title {
+  background: white;
+  color: black;
+  text-align: center;
+  margin-left: 21vw;
+  margin-right: 21vw;
+  right: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.j-w {
+  margin: 0;
+  padding-left: 32px;
+  position: absolute;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.c-t {
+  margin: 0;
+  right: 40px;
+  position: absolute;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#info-detail {
+  text-align: center;
+  font-size: 3vw;
+}
+
+#about-detail {
+  text-align: center;
+  font-size: 3vw;
+}
+
+#info-htw {
+  font-size: 6vw
+}
+
+#about-htw {
+  font-size: 6vw;
+}
+
+#about-title {
+  font-size: 4vw;
+}
+
+#j-detail {
+  font-size: 2vw;
+}
+
+#c-detail {
+  font-size: 2vw;
+}
+
+::-webkit-scrollbar {
+ width: 1.5vw;
+}
+
+::-webkit-scrollbar-track {
+  border: .5vw solid black;
+  box-shadow: -6px 100px 10px 6px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: .1vw;
+}
+
+/******************************************************************************/
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+.imageAni {
+  width: 11vw;
+  position: relative;
+  animation: imageAnime 3s 1;
+}
+
+@keyframes imageAnime {
+  0%{
+    color: #24272E;
+    margin-bottom: -20px;
+  }
+}

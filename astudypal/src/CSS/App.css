@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+
+.list-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: black;
+  font-size: 1.6em;
+}
+
+/* Welcome Page */
+
+.welcome-page-div {
+  background-image: url('images/school-class-room.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome-page-div span {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.welcome-page-div h1 {
+  font-size: 10em;
+}
+
+.welcome-page-div span a {
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 1em 2.7em;
+  margin: 20px;
+  font-size: 3em;
+  color: white;
+  transition-property: background, padding, border;
+  transition-duration: .6s;
+  transition-timing-function: ease-in-out;
+}
+
+.welcome-page-div span a:hover {
+  background: grey;
+  padding: 1.5em 3.2em;
+  border: 5.7px solid white;
+}
+
+.copyright-logo p {
+  background: grey;
+  border-radius: 10px;
+  display: inline;
+  padding: .2em .4em;
+}
+
+/* Login Page  */
+
+.login-div {
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 4px 3px 2px grey;
+  padding: 2.7em 1.4em;
+}
+
+/* Table Of Contents/Central Page */
+.table-of-contents-div {
+  background-image: url('images/table-of-contents-background-image.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.table-of-contents-div h1 {
+  position: relative;
+  left: 0;
+  vertical-align: bottom;
+  color: white;
+}
+
+.table-of-contents-div nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.table-of-contents-div button {
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: red;
+  padding: .2em .5em;
+  font-size: 1.2em;
+  transition-property: background, color, border;
+  transition-duration: .5s;
+}
+
+.table-of-contents-div button:hover {
+  background: red;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 2px lightcoral;
+}
+
+.class-link {
+  text-decoration: none;
+  color: white;
+  padding: .3em .2em;
+  transition-property: background, border;
+  transition-duration: .3s; 
+}
+
+.class-link:hover {
+  background: tan;
+  border: 2px solid black;
+  color: white;
+}
+
+.table-of-contents-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 500px;
+  height: 100vh;
+}
+
+.search-bar-div {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-bar-link {
+  border-radius: 30px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  padding: 5px 10px;
+  transition-property: all;
+  transition-duration: .35s;
+  transition-timing-function: ease-in-out;
+}
+
+.search-bar-link:hover {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: tan;
+}
+
+.how-to-link {
+  color: white;
+  background:rgba(0, 0, 0, 0.7);
+  border: 2px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* @Media Screen Propeties */
+@media screen and (max-width: 870px) {
+  .welcome-page-div h1 {
+    font-size: 5em;
+  }
+
+  .welcome-page-div span a {
+    font-size: 1.5em;
+    padding: .5 1.5em;
+  }
+
+  .list-icon {
+    font-size: 1.35em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  .login-div {
+    width: 450px;
+  }
+
+  .table-of-contents-div nav h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750) {
+  .login-div {
+    width: 250px;
+  }
+
+  .list-icon {
+    font-size: .85em;
+  }
+}
+
+@media screen and (max-width: 550) {
+  .login-div {
+    width: 95px;
+  }
+}

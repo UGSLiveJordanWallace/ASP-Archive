@@ -1,0 +1,209 @@
+/* <!-- Project Edwiz Started on December 11 2020 --> */
+
+/* This is for the JetBrains Mono Bold 700 font-family  */
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+
+/* This is for the JetBrains Mono Extra-light 200 font-family */
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+  font-family: 'JetBrains Mono', monospace;
+  overflow-x: hidden;
+}
+
+h3 {
+  padding: 0vw;
+}
+
+section {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 3vw;
+}
+
+button {
+  letter-spacing: .001vw;
+  font-size: 2vw;
+  background: none;
+  cursor: pointer;
+  font-weight: 900;
+  border: none;
+  text-decoration-line: none;
+  list-style: none;
+  border: 2px solid black;
+}
+
+nav {
+  position: fixed;
+  z-index: 3;
+}
+
+br {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 5vw;
+}
+
+#a p {
+  font-size: 4vw;
+}
+
+section a {
+  display: block;
+  text-decoration-line: none;
+  list-style: none;
+  padding-bottom: 2vw;
+}
+
+section img {
+  overflow: hidden;
+}
+
+.animation {
+  height: 100vh;
+  background-color: #DCD9D4;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+  background-blend-mode: soft-light,screen;
+  position: relative;
+  overflow: hidden;
+}
+
+.wized-png {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+}
+
+.main-body {
+  background-color: white;
+}
+
+.info-body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  box-shadow: -6px 10px 10px 6px rgba(0, 0, 0, 0.5);
+}
+
+.info-body h2 {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.special-p {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.instructions {
+  width: 93%;
+  margin: 0 auto;
+  color: tan;
+  background-color: black;
+  box-shadow: -6px 10px 10px 6px rgba(0, 0, 0, 0.5);
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.instructions p {
+  text-align: left;
+  padding: .9vw;
+}
+
+.instructions-copy {
+  width: 93%;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  box-shadow: -6px 10px 10px 6px rgba(0, 0, 0, 0.5);
+}
+
+.instructions-copy p {
+  text-align: left;
+  padding: .9vw;
+}
+
+.instructions img {
+  width: 82vw;
+}
+
+#d-title {
+  font-size: 7vw;
+}
+
+#dollar-sign {
+  color: #FBFB07;
+  padding: 1vw;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btnload {
+  font-size: 4vw;
+  border-radius: 4px;
+  transition: ease-in-out 0.4s;
+}
+
+.btnload:hover {
+  color: white;
+  box-shadow: inset 0 22vw 0 0 black;
+}
+
+::-webkit-scrollbar {
+ width: 1.5vw;
+}
+
+::-webkit-scrollbar-track {
+  border: .5vw solid black;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  box-shadow: -6px 100px 10px 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: .1vw;
+}
+
+/*************************************************************/
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
