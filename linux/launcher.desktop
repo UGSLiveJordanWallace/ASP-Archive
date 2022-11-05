@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Name=wized
+Exec=/home/user/wized-lin.sh
+Icon=/home/user/.wized/linux/logo_img.png
+Type=Application
